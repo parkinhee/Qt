@@ -6,6 +6,10 @@ Widget::Widget(QWidget *parent) : QWidget(parent), ui(new Ui::Widget)
 {
     ui->setupUi(this);
 
+
+    // 내용 추가
+    // 소스코드 변경
+
     // 버튼 활성화 함수
     Login_chk();
     Join_chk();
